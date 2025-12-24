@@ -8,7 +8,7 @@ import More from "../../assets/more.png";
 import Notification from "../../assets/notification.png";
 import Profile_icon from "../../assets/jack.png";
 import { Link } from "react-router-dom";
-const Navbar = () => {    
+const Navbar = ({setSiderbar}) => {    
   return (
     <nav className="flex-div">
       <div className="nav-left flex-div">
